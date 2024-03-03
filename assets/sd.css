@@ -1,0 +1,368 @@
+#centerme {
+	position:relative;
+	margin:0 auto;
+	width:985px;
+}
+
+#header {
+	width: 900px;
+	height: 40px;
+	margin: 0px;
+	padding: 0px;
+	background : url(../images/) no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 50px;
+}
+
+#maintopic {
+	width: 985px;
+	text-align: left;
+	padding: 5px 0px 9px 0px;
+	margin: 0px;
+	height: 25px;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+}
+
+#htmlheader {
+	position: absolute;
+	top: 0px;
+	left: 50px;
+	height: 80px;
+	width: 715px;
+	text-align: left;
+}
+
+#plaintext {
+	position: absolute;
+	top: 0px;
+	left: 885px;
+	text-align: right;
+	width: 100px;
+}
+
+#plaintext a {
+	text-decoration: none;
+	color: #454545;
+}
+	
+
+#maintopic ul {
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+	color: #C2C2C2;
+}
+
+#maintopic li {
+	display: inline;
+}
+
+#maintopic li a {
+	margin: 0px;
+	padding: 6px 8px 8px 8px;
+	background : url(../images/pmbgr.gif) no-repeat top right;
+	text-decoration: none;
+	font-weight: bold;
+ 	color: #C2C2C2;
+	border-right: 1px solid #ffffff;
+}
+
+#maintopic li a img {
+	vertical-align : middle;
+}
+
+#maintopic li a.sel {
+	background: url(../images/pmbgra.gif) no-repeat top right;
+}
+
+#maintopic li a:hover {
+	background: url(../images/pmbgra.gif) no-repeat top right;
+	color: #C2C2C2;
+}
+
+#sitename {
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	height: 50px;
+	width: 720px;
+	background: transparent url(../images/pname.gif) no-repeat bottom left;
+	padding: 0px;
+	margin: 0px;
+}
+
+#eyecatcher {
+	width: 765px;
+	height: 160px;
+	margin: 0px;
+	padding: 0px;
+background : #7A7A7A url(../images/) no-repeat;	
+	position: absolute;
+	top: 55px;
+	left: 0px;
+}
+
+#eyeedgeright {
+	width: 7px;
+	height: 160px;
+	position: absolute;
+	left: 758px;
+	top: 55px;
+}
+
+#tel {
+	position: absolute;
+	top: 230px;
+	left: 50px;
+	width: 145px;
+	height: 15px;
+	margin: 0px;
+	padding: 0px;
+rem	background: #C2C2C2 url(../images/ptel.gif) no-repeat;
+}
+
+
+#youarehere {
+	position: absolute;
+	top: 230px;
+	left: 195px;
+	width: 600px;
+	height: 15px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#topic {
+	position: absolute;
+	top: 225px;
+	left: 0px;
+	width: 180px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#topic ul {
+	list-style-type: none;
+	margin:0px;
+	padding: 4px 0px 4px 0px;
+	color: #C2C2C2;
+rem list-style-image: none; 
+rem list-style-position: inherit; 
+}
+
+#topic li {
+	display: inline;
+}
+
+#topic li a {
+	margin: 1px 0px 0px 0px;
+	padding: 4px 0px 4px 8px;
+	background : #7A7A7A url(../images/per.gif) no-repeat top right;
+	text-decoration: none;
+	font-weight: bold;
+ 	color: #C2C2C2;
+	display: block; 
+}
+
+#topic li a img {
+	vertical-align : middle;
+	display: block; 
+}
+
+#topic li a.sel {
+	background-color: #9C001A;
+	display: block; 
+}
+
+#topic li a.sub {
+	background-color: #7A7A7A;
+	padding: 4px 0px 4px 25px;
+	display: block; 
+}
+
+#topic li a.subsel {
+	background-color: #9C001A;
+	padding: 4px 0px 4px 25px;
+	display: block; 
+}
+
+#topic li a:hover {
+	background-color: #9C001A;
+	display: block; 
+}
+
+
+#search {
+	position: absolute;
+	top: 65px;
+	left: 790px;
+	width: 160px;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+rem	border: solid 1px #000000;
+}
+
+form.search {
+	padding: 0px;
+	margin: 0px;
+}
+
+form.search input {
+	padding: 2px 0px 2px 4px;
+	margin: 0px;
+	vertical-align : middle;
+	font-size: 80%;
+	color: #9C001A;
+}
+
+input.search {
+	border: #7A7A7A 1px solid;
+	width: 100px;
+}
+
+
+#content {
+	width: 570px;
+	padding: 10px 0px 10px 0px;
+	margin: 0px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 244px;
+	left: 195px;
+}
+
+#searchshop {
+	position: absolute;
+	top: 55px;
+	left: 780px;
+	width: 205px;
+	height: 160px;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+#commontop {
+
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+}
+
+#commontop P.small  {
+	font-size: 90%;
+	color: #9C001A;
+	display: inline;
+}
+
+#commontop a {
+	font-size: 90%;
+	text-decoration: none;
+	line-height: 160%;
+	font-weight: normal;
+	color: #9C001A;
+	display: inline;
+}
+
+#youarehere P.small  {
+	font-size: 90%;
+	color: #7A7A7A;
+	display: inline;
+}
+
+#youarehere a.small {
+	font-size: 90%;
+	text-decoration: none;
+	color: #7A7A7A;
+}
+
+#youarehere a:hover, #commontop a:hover {
+	text-decoration: underline;
+}
+
+#more a.small {
+	font-size: 90%;
+	font-weight: normal;
+	text-decoration: none;
+	color: #7A7A7A;
+}
+
+#shopcontrol {
+	position: absolute;
+	top: 95px;
+	left: 790px;
+	width: 185px;
+	margin: 0px:
+	padding: 0px;
+}
+
+#shopcontrol a {
+	font-size: 100%;
+	text-decoration: none;
+	line-height: 100%;
+	font-weight: bold;
+	color: #C2C2C2;
+	display: inline;
+	margin: 0px:
+	padding: 0px;
+}
+
+
+#shopcontrol a:hover {
+	font-size: 100%;
+	text-decoration: underline;
+	line-height: 100%;
+	font-weight: bold;
+	color: #C2C2C2;
+	display: inline;
+	margin: 0px:
+	padding: 0px;
+}
+
+#quantum {
+	position: absolute;
+	top: 180px;
+	left: 790px;
+	width: 185px;
+	valign: top;
+	margin: 0px;
+	padding: 0px;
+}
+
+#quantum p {
+	font-size: 80%;
+	line-height: 140%;
+	font-weight: none;
+	color: #C2C2C2;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+#sidebartop {
+	position: absolute;
+	top: 230px;
+	left: 780px;
+	width: 205px;
+	height: 25px;
+	margin: 0px;
+	padding: 0px;
+	background: url(../images/psito.gif) no-repeat right top;
+}
+
+#sidebar {
+	position: absolute;
+	top: 255px;
+	left: 780px;
+	width: 185px;
+	padding: 10px;
+	margin: 0;
+	border-bottom: 1px solid #7A7A7A;
+	background: url(../images/pic_sidebar_bgr.gif) repeat-y left top;
+rem	text-align: right;
+}
+

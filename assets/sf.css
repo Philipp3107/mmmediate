@@ -1,0 +1,15 @@
+HTML, BODY, TD, INPUT {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/** Für Formulare und Shopseiten **/
+
+/* Schriftart für Formulartabellen und Formularelemente */
+table.formtab td,
+table.formtab input,
+table.formtab select,
+table.formtab textarea {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}

@@ -1,0 +1,336 @@
+/* Content und Sidebar-Elemente */
+
+BODY {
+	margin: 0px;
+	padding: 0px;
+	background-color: #ffffff;
+}
+
+#content .w2dptablinks {
+	padding: 12px 0 0 0;
+	border-bottom: 2px solid #7A7A7A;
+	margin-bottom: 10px;
+	
+}
+#content .w2dptablinks a {
+	font-weight: normal;
+	padding: 6px 10px;
+	background-color: #C2C2C2;
+	display: block;
+	float: left;
+	margin-right: 3px;
+	color: #7A7A7A;
+}
+
+#content .w2dptablinks a.w2dptabsel {color: #ffffff; background-color: #7A7A7A;}
+#content .w2dptablinks a:hover {text-decoration: none;}
+
+#content h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	color: #9C001A;
+}
+
+#content h2 {
+	font-size: 100%;
+	font-weight : bold;
+	font-size: 13px;
+	margin: 0px;
+	color: #9C001A;
+}
+
+#content h2 {
+	padding: 10px 0px 2px 0px;	
+}
+
+
+#content h3 {
+	font-size: 100%;
+	font-weigth: normal;
+	margin: 0px;
+	padding: 2px 0px 2px 0px;	
+	color: #9C001A;
+}
+
+#content p {
+	margin: 0px;
+	padding: 2px 0px 5px 0px;	
+	line-height: 160%;
+	color: #454545;
+}
+
+#content .picturetext {
+	font-size: 90%;
+	margin: 0px;
+	padding: 2px 0px 5px 0px;	
+	line-height: 160%;
+}
+
+#content a, #sidebar a {
+	text-decoration: none;
+	font-weight : bold;
+	color: #9C001A;
+}
+
+#content a:hover, #sidebar a:hover {
+	text-decoration: underline;
+}
+
+#content .sidepictureright {
+	float: right;
+	padding: 0;
+	margin: 7px 0px 10px 10px;
+	width: 184px;
+}
+
+#content .sidepictureleft {
+	float: left;
+	padding: 0;
+	margin: 7px 10px 10px 0px;
+	width: 184px;
+}
+
+#content .clearer {
+	clear: both;
+}
+
+#content .extra {
+	display: block;
+	font-size: 120%;
+	border-top: solid 2px #7A7A7A;
+	padding: 10px 0 10px 0;
+	margin: 5px 0 0 0;
+}
+
+hr {
+	background-color: #7A7A7A; /* Farbe für Opera und Firefox */
+	color: #7A7A7A; /* Farbe für Internet Explorer (IE) */
+	border: 0;
+	height: 2px;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+
+#more {
+	margin: 20px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
+	text-align: right;
+	border-top: solid 1px #7A7A7A;
+}
+
+#sidebar p {
+	width: 183px;
+	margin: 0;
+	padding: 7px 0px 0px 0px;
+	line-height: 120%;
+	color: #454545;
+}
+
+#sidebar h2 {
+	text-align: left;
+	font-weight : bold;
+	font-size: 13px;
+	margin: 0;
+	padding: 5px 0px 5px 0px;	
+	color: #9C001A;
+}
+
+#sidebar .picturetext {
+	margin: 0px;
+	padding: 2px 0px 5px 10px;	
+	line-height: 160%;
+}
+
+
+
+/* Liste */
+
+#content ul, #sidebar ul {
+	list-style: none;
+	padding: 0px;
+	margin: 6px 0px 6px 4px;
+}
+
+#content li, #sidebar li {
+	padding: 2px 0px 2px 10px;
+	background: url(../images/pblt.gif) no-repeat top left;
+}
+
+/* Tabelle */
+
+#content table.cells {
+	border: none;
+}
+
+#content td.cell {
+	background-color: #7A7A7A;
+	color: #C2C2C2;
+}
+
+#content td.headercell {
+	background-color: #9C001A;
+	color: #C2C2C2;
+	font-weight: bold;
+}
+
+/* Teaser */
+
+div.teaserelement {
+	float: left;
+	padding: 0px 20px 0px 0px;
+	margin: 0px;
+}
+
+div.teaser {
+	margin: 0px;
+	padding: 2px 0px 2px 0px;	
+}
+
+div.teaserpicture {
+	float: left;
+	padding: 0px;
+	margin: 4px 10px 10px 0px;
+	border: none;
+}
+
+p.teasertext {
+	margin: 0px;
+	padding: 4px 0px 4px 0px;
+}
+
+.teasernav {
+	clear: both;
+	padding: 2px 0px 2px 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+/* Absatztype Formular */
+
+input.box {
+	border : 1px solid #7A7A7A;
+	width: 300px;
+	vertical-align: top;
+	padding: 1px;
+	margin: 0px 0px 10px 0px;
+}
+
+form.formular textarea  {
+	border : 1px solid #7A7A7A;
+	width: 300px;
+	height: 200px;
+	vertical-align: top;
+	padding: 1px;
+	margin: 0px 0px 10px 0px;
+}
+
+form.formular .formcaption {
+	width: 200px;
+	line-height: 200%;
+	float: left;
+	clear: left;
+}
+
+form.formular .formnote {
+	color: #454545;
+	line-height: 160%;
+	padding: 2px 0px 10px 202px !important;
+}
+
+.buttoncaption {
+	line-height: 200%;
+}
+
+
+/* Plugin-Styles */
+
+P.s2d  {
+	font-size: 180%;
+	color: #454545;
+	font-weight : bold;
+	margin: 0px;
+	padding: 2px 0px 2px 0px;
+	line-height: 200%;
+}
+
+P.s2dsmall  {
+	font-size: 80%;
+}
+
+a.s2dsmall, a.s2dinfo  {
+	text-decoration:underline !important;
+}
+
+/** Für Formulare und Shopseiten **/
+
+/* Rahmen und Farbe Formularelemente */
+table.formtab select.tx,
+table.formtab input.tx,
+table.formtab textarea.tx {
+	border: 1px solid #454545;
+	background-color: #C2C2C2;
+}
+
+/* Weitere Styledefinitionen für Formularelemente */
+/* Rahmen und Farbe Formularelemente Highlight */
+table.formtab select.txh,
+table.formtab input.txh,
+table.formtab textarea.txh,
+table.formtab td.txh,
+table.formtab table.txh {
+	border: 1px solid #A70C0C;
+	background-color: #F5E5E5;
+}
+
+/* Tabellenbreite */
+table.pluginwidth {
+	width: 570px;
+	margin: auto;
+}
+
+table.completewidth, td.completewidth {
+	width: 100%;
+}
+
+/* Breite der Formularfelder */
+table.formtab input.tx,
+table.formtab input.txh,
+table.formtab textarea.tx,
+table.formtab textarea.txh {
+	width: 285px;
+}
+
+/* Höhe der Formularfelder */
+table.formtab textarea.tx,
+table.formtab textarea.txh {
+	height: 114px;
+}
+
+/* Farbeliche Anzeige von Fehlermeldungen, immer identisch */
+table.formtab td.h, p.h {
+	color: #A70C0C;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Focus und Mausover von Formularelementen, immer identisch */
+/*
+table.formtab textarea:focus,
+table.formtab textarea:hover,
+table.formtab select:focus,
+table.formtab select:hover,
+table.formtab input:focus,
+table.formtab input:hover {
+	background-color: #FFFFFF;
+} */
+
+/* Innenabstand von Formularelementen und Tabellenzellen, immer identisch */
+table.formtab input,
+table.formtab textarea,
+table.formtab td {
+	padding-left: 3px;
+	padding-right: 3px;
+	margin: 0px;
+}

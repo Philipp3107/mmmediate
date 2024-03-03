@@ -12,8 +12,8 @@ Für wen? Unterschiedliche Interessen und Bedürfnisse sind natürlich, Missvers
 
 # Subpages
 
-[Mediation am Arbeitsplatz](Mediation%20am%20Arbeitsplatz.md) <br>
+[Mediation am Arbeitsplatz](Mediation am Arbeitsplatz.md) <br>
 [Familienmediation](Familienmediation.md)<br>
-[Mediation im interkulturellen Kontext](Mediation%20im%20interkulturellen%20Kontext.md)<br>
-[Mediation bei Nachbarschaftskonflikten](Mediation%20bei%20Nachbarschaftskonflikten.md)<br>
-[Fragen und Antworten](Fragen%20und%20Antworten.md)<br>
+[Mediation im interkulturellen Kontext](Mediation im interkulturellen Kontext.md)<br>
+[Mediation bei Nachbarschaftskonflikten](Mediation bei Nachbarschaftskonflikten.md)<br>
+[Fragen und Antworten](Fragen und Antworten.md)<br>
